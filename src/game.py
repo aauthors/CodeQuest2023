@@ -3,6 +3,8 @@ import random
 import comms
 from object_types import ObjectTypes
 
+import sys
+
 
 class Game:
     """
@@ -21,14 +23,12 @@ class Game:
 
         self.current_turn_message = None
 
+        self.tick = 0 # tick counter
+
         # We will store all game objects here
         self.objects = {}
 
-        # updated and deleted objects
-        self.deleted_objects = {}
-        self.updated_objects = {}
-
-        next_init_message = comms.read_message() # we will get our updated information
+        next_init_message = comms.read_message()
         while next_init_message != comms.END_INIT_SIGNAL:
             # At this stage, there won't be any "events" in the message. So we only care about the object_info.
             object_info: dict = next_init_message["message"]["updated_objects"]
@@ -48,9 +48,6 @@ class Game:
         for game_object in self.objects.values():
             if game_object["type"] == ObjectTypes.BOUNDARY.value:
                 boundaries.append(game_object)
-
-        # TESTING PRINT
-        print(self.objects)
 
         # The biggest X and the biggest Y among all Xs and Ys of boundaries must be the top right corner of the map.
 
@@ -94,12 +91,25 @@ class Game:
         """
         This is where you should write your bot code to process the data and respond to the game.
         """
+        self.tick += 1
 
         # Write your code here... For demonstration, this bot just shoots randomly every turn.
         comms.post_message({
             "shoot": random.uniform(0, random.randint(1, 360)), 
         })
 
-        #comms.post_message({
-            #"path": [123.03, 222.03],
-        #})
+        tank_posx = self.objects[f"{self.tank_id}"]["position"][0]
+        tank_posy = self.objects[f"{self.tank_id}"]["position"][1] 
+        boundary = self.objects["closing_boundary-1"]
+        bound_rangex_left = boundary["position"][0][0]+boundary["velocity"][0][0] + 50
+        bound_rangex_right = boundary["position"][2][0]+boundary["velocity"][2][0] - 50 
+        bound_rangey_bottom = boundary["position"][1][1]+boundary["velocity"][1][1] + 50
+        bound_rangey_top = boundary["position"][3][1]+boundary["velocity"][3][1] - 50
+
+        if self.tick % 20 == 0 and (tank_posx < bound_rangex_left or tank_posx > bound_rangex_right or tank_posy < bound_rangey_bottom or tank_posy > bound_rangey_top):
+            new_pathx = round(random.uniform(bound_rangex_left, bound_rangex_right), 1)
+            new_pathy = round(random.uniform(bound_rangey_bottom, bound_rangey_top), 1)
+            print(f"new position: [{new_pathx},{new_pathy}]", file=sys.stderr)
+            comms.post_message({
+                "path": [new_pathx, new_pathy],
+            })
