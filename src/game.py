@@ -94,11 +94,14 @@ class Game:
         This is where you should write your bot code to process the data and respond to the game.
         """
         self.tick += 1
+        to_post = {}
+
+        to_post.update({"shoot": random.uniform(0, random.randint(1, 360))})
 
         # Write your code here... For demonstration, this bot just shoots randomly every turn.
-        comms.post_message({
-            "shoot": random.uniform(0, random.randint(1, 360)), 
-        })
+        # comms.post_message({
+        #     "shoot": random.uniform(0, random.randint(1, 360)), 
+        # })
 
         tank_posx = self.objects[f"{self.tank_id}"]["position"][0]
         tank_posy = self.objects[f"{self.tank_id}"]["position"][1] 
@@ -112,6 +115,10 @@ class Game:
             new_pathx = round(random.uniform(bound_rangex_left, bound_rangex_right), 1)
             new_pathy = round(random.uniform(bound_rangey_bottom, bound_rangey_top), 1)
             print(f"new position: [{new_pathx},{new_pathy}]", file=sys.stderr)
-            comms.post_message({
-                "path": [new_pathx, new_pathy],
-            })
+            to_post.update({"path": [new_pathx, new_pathy]})
+            # comms.post_message({
+            #     "path": [new_pathx, new_pathy],
+            # })
+
+        print(f"Posted Message ({self.tick}): [{to_post}]", file=sys.stderr)
+        comms.post_message(to_post)
