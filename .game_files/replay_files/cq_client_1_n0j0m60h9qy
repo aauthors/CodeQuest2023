@@ -1,0 +1,208 @@
+STARTED-n0j0m60h9qy
+> 2023/07/29 03:44:25.000670439  length=74 from=0 to=73
+{"message":{"your-tank-id":"tank-2","enemy-tank-id":"tank-1"},"time":0.1}
+> 2023/07/29 03:44:25.000882223  length=4796 from=74 to=4869
+{"message":{"deleted_objects":[],"updated_objects":{"tank-1":{"type":1,"position":[730.0,890.0],"velocity":[0.0,0.0],"hp":5,"powerups":[]},"wall-1":{"type":3,"position":[470.0,790.0]},"wall-2":{"type":3,"position":[490.0,790.0]},"wall-3":{"type":3,"position":[510.0,790.0]},"wall-4":{"type":3,"position":[530.0,790.0]},"wall-5":{"type":3,"position":[550.0,790.0]},"wall-6":{"type":3,"position":[570.0,790.0]},"wall-7":{"type":3,"position":[590.0,790.0]},"wall-8":{"type":4,"position":[610.0,790.0],"hp":1},"wall-9":{"type":4,"position":[630.0,790.0],"hp":1},"wall-10":{"type":4,"position":[650.0,790.0],"hp":1},"wall-11":{"type":3,"position":[670.0,790.0]},"wall-12":{"type":3,"position":[690.0,790.0]},"wall-13":{"type":3,"position":[710.0,790.0]},"wall-14":{"type":3,"position":[730.0,790.0]},"wall-15":{"type":3,"position":[750.0,790.0]},"wall-16":{"type":3,"position":[770.0,790.0]},"wall-17":{"type":3,"position":[790.0,790.0]},"wall-18":{"type":3,"position":[810.0,790.0]},"wall-19":{"type":3,"position":[830.0,790.0]},"wall-20":{"type":3,"position":[850.0,790.0]},"wall-21":{"type":3,"position":[870.0,790.0]},"wall-22":{"type":3,"position":[890.0,790.0]},"wall-23":{"type":3,"position":[910.0,790.0]},"wall-24":{"type":3,"position":[470.0,770.0]},"wall-25":{"type":3,"position":[490.0,770.0]},"wall-26":{"type":3,"position":[510.0,770.0]},"wall-27":{"type":3,"position":[530.0,770.0]},"wall-28":{"type":3,"position":[550.0,770.0]},"wall-29":{"type":3,"position":[570.0,770.0]},"wall-30":{"type":3,"position":[590.0,770.0]},"wall-31":{"type":4,"position":[610.0,770.0],"hp":1},"wall-32":{"type":4,"position":[630.0,770.0],"hp":1},"wall-33":{"type":4,"position":[650.0,770.0],"hp":1},"wall-34":{"type":3,"position":[670.0,770.0]},"wall-35":{"type":3,"position":[690.0,770.0]},"wall-36":{"type":3,"position":[710.0,770.0]},"wall-37":{"type":3,"position":[730.0,770.0]},"wall-38":{"type":3,"position":[750.0,770.0]},"wall-39":{"type":3,"position":[770.0,770.0]},"wall-40":{"type":3,"position":[790.0,770.0]},"wall-41":{"type":3,"position":[810.0,770.0]},"wall-42":{"type":3,"position":[830.0,770.0]},"wall-43":{"type":3,"position":[850.0,770.0]},"wall-44":{"type":3,"position":[870.0,770.0]},"wall-45":{"type":3,"position":[890.0,770.0]},"wall-46":{"type":3,"position":[910.0,770.0]},"wall-47":{"type":3,"position":[930.0,770.0]},"wall-48":{"type":3,"position":[470.0,750.0]},"wall-49":{"type":3,"position":[490.0,750.0]},"wall-50":{"type":3,"position":[510.0,750.0]},"wall-51":{"type":3,"position":[530.0,750.0]},"wall-52":{"type":3,"position":[550.0,750.0]},"wall-53":{"type":3,"position":[570.0,750.0]},"wall-54":{"type":3,"position":[590.0,750.0]},"wall-55":{"type":4,"position":[610.0,750.0],"hp":1},"wall-56":{"type":4,"position":[630.0,750.0],"hp":1},"wall-57":{"type":4,"position":[650.0,750.0],"hp":1},"wall-58":{"type":3,"position":[670.0,750.0]},"wall-59":{"type":3,"position":[690.0,750.0]},"wall-60":{"type":3,"position":[710.0,750.0]},"wall-61":{"type":3,"position":[730.0,750.0]},"wall-62":{"type":3,"position":[750.0,750.0]},"wall-63":{"type":3,"position":[770.0,750.0]},"wall-64":{"type":3,"position":[790.0,750.0]},"wall-65":{"type":3,"position":[810.0,750.0]},"wall-66":{"type":3,"position":[830.0,750.0]},"wall-67":{"type":3,"position":[470.0,730.0]},"wall-68":{"type":3,"position":[490.0,730.0]},"wall-69":{"type":3,"position":[510.0,730.0]},"wall-70":{"type":3,"position":[530.0,730.0]},"wall-71":{"type":3,"position":[550.0,730.0]},"wall-72":{"type":3,"position":[570.0,730.0]},"wall-73":{"type":3,"position":[590.0,730.0]},"wall-74":{"type":4,"position":[610.0,730.0],"hp":1},"wall-75":{"type":4,"position":[630.0,730.0],"hp":1},"wall-76":{"type":4,"position":[650.0,730.0],"hp":1},"wall-77":{"type":3,"position":[670.0,730.0]},"wall-78":{"type":3,"position":[690.0,730.0]},"wall-79":{"type":3,"position":[710.0,730.0]},"wall-80":{"type":3,"position":[470.0,710.0]},"wall-81":{"type":3,"position":[490.0,710.0]},"wall-82":{"type":3,"position":[510.0,710.0]},"wall-83":{"type":3,"position":[530.0,710.0]},"wall-84":{"type":3,"position":[550.0,710.0]},"wall-85":{"type":3,"position":[570.0,710.0]},"wall-86":{"type":4,"position":[590.0,710.0],"hp":1},"wall-87":{"type":4,"position":[610.0,710.0],"hp":1},"wall-88":{"type":3,"position":[710.0,570.0]},"wall-89":{"type":3,"position":[730.0,570.0]},"wall-90":{"type":3,"position":[750.0,570.0]},"wall-91":{"type":3,"position":[770.0,570.0]},"wall-92":{"type":3,"position":[790.0,570.0]},"wall-93":{"type":3,"position":[810.0,570.0]},"wall-94":{"type":3,"position":[830.0,570.0]},"wall-95":{"type":3,"position":[850.0,570.0]},"wall-96":{"type":3,"position":[870.0,570.0]},"wall-97":{"type":3,"position":[890.0,570.0]},"wall-98":{"type":3,"position":[910.0,570.0]},"wall-99":{"type":3,"position":[930.0,570.0]}}},"time":0.1}
+> 2023/07/29 03:44:26.000092302  length=4818 from=4870 to=9687
+{"message":{"deleted_objects":[],"updated_objects":{"wall-100":{"type":3,"position":[950.0,570.0]},"wall-101":{"type":3,"position":[970.0,570.0]},"wall-102":{"type":3,"position":[990.0,570.0]},"wall-103":{"type":3,"position":[710.0,550.0]},"wall-104":{"type":3,"position":[730.0,550.0]},"wall-105":{"type":3,"position":[750.0,550.0]},"wall-106":{"type":3,"position":[770.0,550.0]},"wall-107":{"type":3,"position":[790.0,550.0]},"wall-108":{"type":3,"position":[810.0,550.0]},"wall-109":{"type":3,"position":[830.0,550.0]},"wall-110":{"type":3,"position":[850.0,550.0]},"wall-111":{"type":3,"position":[870.0,550.0]},"wall-112":{"type":3,"position":[890.0,550.0]},"wall-113":{"type":3,"position":[910.0,550.0]},"wall-114":{"type":3,"position":[930.0,550.0]},"wall-115":{"type":3,"position":[950.0,550.0]},"wall-116":{"type":3,"position":[970.0,550.0]},"wall-117":{"type":3,"position":[990.0,550.0]},"wall-118":{"type":3,"position":[270.0,530.0]},"wall-119":{"type":3,"position":[290.0,530.0]},"wall-120":{"type":3,"position":[310.0,530.0]},"wall-121":{"type":3,"position":[330.0,530.0]},"wall-122":{"type":3,"position":[350.0,530.0]},"wall-123":{"type":3,"position":[370.0,530.0]},"wall-124":{"type":3,"position":[710.0,530.0]},"wall-125":{"type":3,"position":[730.0,530.0]},"wall-126":{"type":3,"position":[750.0,530.0]},"wall-127":{"type":3,"position":[770.0,530.0]},"wall-128":{"type":3,"position":[790.0,530.0]},"wall-129":{"type":3,"position":[810.0,530.0]},"wall-130":{"type":3,"position":[830.0,530.0]},"wall-131":{"type":3,"position":[850.0,530.0]},"wall-132":{"type":3,"position":[870.0,530.0]},"wall-133":{"type":3,"position":[890.0,530.0]},"wall-134":{"type":3,"position":[910.0,530.0]},"wall-135":{"type":3,"position":[930.0,530.0]},"wall-136":{"type":3,"position":[950.0,530.0]},"wall-137":{"type":3,"position":[970.0,530.0]},"wall-138":{"type":3,"position":[990.0,530.0]},"wall-139":{"type":3,"position":[1510.0,530.0]},"wall-140":{"type":3,"position":[1530.0,530.0]},"wall-141":{"type":3,"position":[1550.0,530.0]},"wall-142":{"type":3,"position":[1570.0,530.0]},"wall-143":{"type":3,"position":[270.0,510.0]},"wall-144":{"type":3,"position":[290.0,510.0]},"wall-145":{"type":3,"position":[310.0,510.0]},"wall-146":{"type":3,"position":[330.0,510.0]},"wall-147":{"type":3,"position":[350.0,510.0]},"wall-148":{"type":3,"position":[370.0,510.0]},"wall-149":{"type":3,"position":[1510.0,510.0]},"wall-150":{"type":3,"position":[1530.0,510.0]},"wall-151":{"type":3,"position":[1550.0,510.0]},"wall-152":{"type":3,"position":[1570.0,510.0]},"wall-153":{"type":3,"position":[1510.0,490.0]},"wall-154":{"type":3,"position":[1530.0,490.0]},"wall-155":{"type":3,"position":[1550.0,490.0]},"wall-156":{"type":3,"position":[1570.0,490.0]},"wall-157":{"type":3,"position":[1510.0,470.0]},"wall-158":{"type":3,"position":[1530.0,470.0]},"wall-159":{"type":3,"position":[1550.0,470.0]},"wall-160":{"type":3,"position":[1570.0,470.0]},"wall-161":{"type":3,"position":[1010.0,450.0]},"wall-162":{"type":3,"position":[1030.0,450.0]},"wall-163":{"type":3,"position":[1050.0,450.0]},"wall-164":{"type":3,"position":[1070.0,450.0]},"wall-165":{"type":3,"position":[1090.0,450.0]},"wall-166":{"type":3,"position":[1110.0,450.0]},"wall-167":{"type":3,"position":[1130.0,450.0]},"wall-168":{"type":3,"position":[1150.0,450.0]},"wall-169":{"type":3,"position":[1170.0,450.0]},"wall-170":{"type":3,"position":[1190.0,450.0]},"wall-171":{"type":3,"position":[1210.0,450.0]},"wall-172":{"type":3,"position":[1230.0,450.0]},"wall-173":{"type":3,"position":[430.0,430.0]},"wall-174":{"type":3,"position":[1010.0,430.0]},"wall-175":{"type":3,"position":[1030.0,430.0]},"wall-176":{"type":3,"position":[1050.0,430.0]},"wall-177":{"type":3,"position":[1070.0,430.0]},"wall-178":{"type":3,"position":[1090.0,430.0]},"wall-179":{"type":3,"position":[1110.0,430.0]},"wall-180":{"type":3,"position":[1130.0,430.0]},"wall-181":{"type":3,"position":[1150.0,430.0]},"wall-182":{"type":3,"position":[1170.0,430.0]},"wall-183":{"type":3,"position":[1190.0,430.0]},"wall-184":{"type":3,"position":[1210.0,430.0]},"wall-185":{"type":3,"position":[1230.0,430.0]},"wall-186":{"type":3,"position":[450.0,410.0]},"wall-187":{"type":3,"position":[1010.0,410.0]},"wall-188":{"type":3,"position":[1030.0,410.0]},"wall-189":{"type":3,"position":[1050.0,410.0]},"wall-190":{"type":3,"position":[1070.0,410.0]},"wall-191":{"type":3,"position":[1090.0,410.0]},"wall-192":{"type":3,"position":[1110.0,410.0]},"wall-193":{"type":3,"position":[1130.0,410.0]},"wall-194":{"type":3,"position":[1150.0,410.0]},"wall-195":{"type":3,"position":[1170.0,410.0]},"wall-196":{"type":3,"position":[1190.0,410.0]},"wall-197":{"type":3,"position":[1210.0,410.0]},"wall-198":{"type":3,"position":[1230.0,410.0]},"wall-199":{"type":3,"position":[470.0,390.0]}}},"time":0.1}
+> 2023/07/29 03:44:26.000307663  length=4383 from=9688 to=14070
+{"message":{"deleted_objects":[],"updated_objects":{"wall-200":{"type":3,"position":[90.0,270.0]},"wall-201":{"type":3,"position":[110.0,270.0]},"wall-202":{"type":3,"position":[130.0,270.0]},"wall-203":{"type":3,"position":[150.0,270.0]},"wall-204":{"type":3,"position":[630.0,270.0]},"wall-205":{"type":3,"position":[650.0,270.0]},"wall-206":{"type":3,"position":[670.0,270.0]},"wall-207":{"type":4,"position":[690.0,270.0],"hp":1},"wall-208":{"type":4,"position":[710.0,270.0],"hp":1},"wall-209":{"type":4,"position":[730.0,270.0],"hp":1},"wall-210":{"type":3,"position":[750.0,270.0]},"wall-211":{"type":3,"position":[770.0,270.0]},"wall-212":{"type":3,"position":[790.0,270.0]},"wall-213":{"type":3,"position":[810.0,270.0]},"wall-214":{"type":3,"position":[830.0,270.0]},"wall-215":{"type":3,"position":[850.0,270.0]},"wall-216":{"type":3,"position":[70.0,250.0]},"wall-217":{"type":3,"position":[550.0,250.0]},"wall-218":{"type":3,"position":[570.0,250.0]},"wall-219":{"type":3,"position":[590.0,250.0]},"wall-220":{"type":3,"position":[610.0,250.0]},"wall-221":{"type":3,"position":[630.0,250.0]},"wall-222":{"type":3,"position":[650.0,250.0]},"wall-223":{"type":3,"position":[670.0,250.0]},"wall-224":{"type":4,"position":[690.0,250.0],"hp":1},"wall-225":{"type":4,"position":[710.0,250.0],"hp":1},"wall-226":{"type":4,"position":[730.0,250.0],"hp":1},"wall-227":{"type":3,"position":[750.0,250.0]},"wall-228":{"type":3,"position":[770.0,250.0]},"wall-229":{"type":3,"position":[790.0,250.0]},"wall-230":{"type":3,"position":[810.0,250.0]},"wall-231":{"type":3,"position":[830.0,250.0]},"wall-232":{"type":3,"position":[850.0,250.0]},"wall-233":{"type":3,"position":[870.0,250.0]},"wall-234":{"type":3,"position":[50.0,230.0]},"wall-235":{"type":3,"position":[470.0,230.0]},"wall-236":{"type":3,"position":[490.0,230.0]},"wall-237":{"type":3,"position":[510.0,230.0]},"wall-238":{"type":3,"position":[530.0,230.0]},"wall-239":{"type":3,"position":[550.0,230.0]},"wall-240":{"type":3,"position":[570.0,230.0]},"wall-241":{"type":3,"position":[590.0,230.0]},"wall-242":{"type":3,"position":[610.0,230.0]},"wall-243":{"type":3,"position":[630.0,230.0]},"wall-244":{"type":3,"position":[650.0,230.0]},"wall-245":{"type":3,"position":[670.0,230.0]},"wall-246":{"type":4,"position":[690.0,230.0],"hp":1},"wall-247":{"type":4,"position":[710.0,230.0],"hp":1},"wall-248":{"type":4,"position":[730.0,230.0],"hp":1},"wall-249":{"type":3,"position":[750.0,230.0]},"wall-250":{"type":3,"position":[770.0,230.0]},"wall-251":{"type":3,"position":[790.0,230.0]},"wall-252":{"type":3,"position":[810.0,230.0]},"wall-253":{"type":3,"position":[830.0,230.0]},"wall-254":{"type":3,"position":[850.0,230.0]},"wall-255":{"type":3,"position":[870.0,230.0]},"wall-256":{"type":3,"position":[890.0,230.0]},"wall-257":{"type":3,"position":[30.0,210.0]},"wall-258":{"type":3,"position":[470.0,210.0]},"wall-259":{"type":3,"position":[490.0,210.0]},"wall-260":{"type":3,"position":[510.0,210.0]},"wall-261":{"type":3,"position":[530.0,210.0]},"wall-262":{"type":3,"position":[550.0,210.0]},"wall-263":{"type":3,"position":[570.0,210.0]},"wall-264":{"type":3,"position":[590.0,210.0]},"wall-265":{"type":3,"position":[610.0,210.0]},"wall-266":{"type":3,"position":[630.0,210.0]},"wall-267":{"type":3,"position":[650.0,210.0]},"wall-268":{"type":3,"position":[670.0,210.0]},"wall-269":{"type":4,"position":[690.0,210.0],"hp":1},"wall-270":{"type":4,"position":[710.0,210.0],"hp":1},"wall-271":{"type":4,"position":[730.0,210.0],"hp":1},"wall-272":{"type":3,"position":[750.0,210.0]},"wall-273":{"type":3,"position":[770.0,210.0]},"wall-274":{"type":3,"position":[790.0,210.0]},"wall-275":{"type":3,"position":[810.0,210.0]},"wall-276":{"type":3,"position":[830.0,210.0]},"wall-277":{"type":3,"position":[850.0,210.0]},"wall-278":{"type":3,"position":[870.0,210.0]},"wall-279":{"type":3,"position":[890.0,210.0]},"wall-280":{"type":3,"position":[910.0,210.0]},"wall-281":{"type":3,"position":[10.0,190.0]},"tank-2":{"type":1,"position":[670.0,90.0],"velocity":[0.0,0.0],"hp":5,"powerups":[]},"boundary-1":{"type":5,"position":[[0.0,1000.0],[0.0,0.0],[1800.0,0.0],[1800.0,1000.0]],"velocity":[[0.0,0.0],[0.0,0.0],[0.0,0.0],[0.0,0.0]]},"closing_boundary-1":{"type":6,"position":[[0.0,1000.0],[0.0,0.0],[1800.0,0.0],[1800.0,1000.0]],"velocity":[[10.0,0.0],[0.0,10.0],[-10.0,0.0],[0.0,-10.0]]}}},"time":0.1}
+> 2023/07/29 03:44:26.000505869  length=11 from=14071 to=14081
+"END_INIT"
+> 2023/07/29 03:44:27.000105848  length=220 from=14082 to=14301
+{"message":{"deleted_objects":[],"updated_objects":{"closing_boundary-1":{"type":6,"position":[[2.5,997.5],[2.5,2.5],[1797.5,2.5],[1797.5,997.5]],"velocity":[[10.0,0.0],[0.0,10.0],[-10.0,0.0],[0.0,-10.0]]}}},"time":0.1}
+< 2023/07/29 03:44:27.000106313  length=57 from=0 to=56
+{"shoot": 204.88519056713238}
+{"path": [123.03, 222.03]}
+> 2023/07/29 03:44:28.000228582  length=433 from=14302 to=14734
+{"message":{"deleted_objects":[],"updated_objects":{"closing_boundary-1":{"type":6,"position":[[5.0,995.0],[5.0,5.0],[1795.0,5.0],[1795.0,995.0]],"velocity":[[10.0,0.0],[0.0,10.0],[-10.0,0.0],[0.0,-10.0]]},"bullet-1":{"type":2,"tank_id":"tank-1","position":[833.74,972.66],"velocity":[351.94,280.42],"damage":1},"bullet-2":{"type":2,"tank_id":"tank-2","position":[549.67,34.18],"velocity":[-408.22,-189.36],"damage":1}}},"time":0.1}
+< 2023/07/29 03:44:28.000229383  length=57 from=57 to=113
+{"shoot": 119.33599660955312}
+{"path": [123.03, 222.03]}
+> 2023/07/29 03:44:30.000356420  length=617 from=14735 to=15351
+{"message":{"deleted_objects":[],"updated_objects":{"tank-1":{"type":1,"position":[705.0,865.0],"velocity":[-100.0,-100.0],"hp":5,"powerups":[]},"tank-2":{"type":1,"position":[634.64,90.0],"velocity":[-141.42,0.0],"hp":5,"powerups":[]},"closing_boundary-1":{"type":6,"position":[[7.5,992.5],[7.5,7.5],[1792.5,7.5],[1792.5,992.5]],"velocity":[[10.0,0.0],[0.0,10.0],[-10.0,0.0],[0.0,-10.0]]},"bullet-1":{"type":2,"tank_id":"tank-1","position":[921.72,928.24],"velocity":[351.94,-300.42],"damage":1},"bullet-2":{"type":2,"tank_id":"tank-2","position":[447.62,42.13],"velocity":[-408.22,209.36],"damage":1}}},"time":0.1}
+< 2023/07/29 03:44:30.000357222  length=57 from=114 to=170
+{"shoot": 199.16746605704046}
+{"path": [123.03, 222.03]}
+> 2023/07/29 03:44:32.000468228  length=624 from=15352 to=15975
+{"message":{"deleted_objects":[],"updated_objects":{"tank-1":{"type":1,"position":[672.5,851.07],"velocity":[-129.99,-55.71],"hp":5,"powerups":[]},"tank-2":{"type":1,"position":[599.29,90.0],"velocity":[-141.42,0.0],"hp":5,"powerups":[]},"closing_boundary-1":{"type":6,"position":[[10.0,990.0],[10.0,10.0],[1790.0,10.0],[1790.0,990.0]],"velocity":[[10.0,0.0],[0.0,10.0],[-10.0,0.0],[0.0,-10.0]]},"bullet-1":{"type":2,"tank_id":"tank-1","position":[1009.71,853.13],"velocity":[351.94,-300.42],"damage":1},"bullet-2":{"type":2,"tank_id":"tank-2","position":[345.56,94.47],"velocity":[-408.22,209.36],"damage":1}}},"time":0.1}
+< 2023/07/29 03:44:32.000469295  length=57 from=171 to=227
+{"shoot": 312.09863923046294}
+{"path": [123.03, 222.03]}
+> 2023/07/29 03:44:34.000592324  length=626 from=15976 to=16601
+{"message":{"deleted_objects":[],"updated_objects":{"tank-1":{"type":1,"position":[637.17,850.02],"velocity":[-141.42,-0.3],"hp":5,"powerups":[]},"tank-2":{"type":1,"position":[565.88,94.86],"velocity":[-102.37,97.58],"hp":5,"powerups":[]},"closing_boundary-1":{"type":6,"position":[[12.5,987.5],[12.5,12.5],[1787.5,12.5],[1787.5,987.5]],"velocity":[[10.0,0.0],[0.0,10.0],[-10.0,0.0],[0.0,-10.0]]},"bullet-1":{"type":2,"tank_id":"tank-1","position":[1097.7,778.03],"velocity":[351.94,-300.42],"damage":1},"bullet-2":{"type":2,"tank_id":"tank-2","position":[243.51,146.81],"velocity":[-408.22,209.36],"damage":1}}},"time":0.1}
+< 2023/07/29 03:44:34.000593121  length=57 from=228 to=284
+{"shoot": 116.92776299734977}
+{"path": [123.03, 222.03]}
+> 2023/07/29 03:44:36.000687824  length=629 from=16602 to=17230
+{"message":{"deleted_objects":[],"updated_objects":{"tank-1":{"type":1,"position":[604.35,843.67],"velocity":[-102.37,-97.57],"hp":5,"powerups":[]},"tank-2":{"type":1,"position":[540.62,119.6],"velocity":[-101.04,98.95],"hp":5,"powerups":[]},"closing_boundary-1":{"type":6,"position":[[15.0,985.0],[15.0,15.0],[1785.0,15.0],[1785.0,985.0]],"velocity":[[10.0,0.0],[0.0,10.0],[-10.0,0.0],[0.0,-10.0]]},"bullet-1":{"type":2,"tank_id":"tank-1","position":[1185.68,702.92],"velocity":[351.94,-300.42],"damage":1},"bullet-2":{"type":2,"tank_id":"tank-2","position":[141.45,199.15],"velocity":[-408.22,209.36],"damage":1}}},"time":0.1}
+< 2023/07/29 03:44:36.000688689  length=57 from=285 to=341
+{"shoot": 100.28349260370798}
+{"path": [123.03, 222.03]}
+> 2023/07/29 03:44:38.000755176  length=636 from=17231 to=17866
+{"message":{"deleted_objects":["bullet-2"],"updated_objects":{"tank-1":{"type":1,"position":[571.5,830.6],"velocity":[-131.39,-52.31],"hp":5,"powerups":[]},"tank-2":{"type":1,"position":[506.94,129.8],"velocity":[-141.41,1.71],"hp":5,"powerups":[]},"closing_boundary-1":{"type":6,"position":[[17.5,982.5],[17.5,17.5],[1782.5,17.5],[1782.5,982.5]],"velocity":[[10.0,0.0],[0.0,10.0],[-10.0,0.0],[0.0,-10.0]]},"bullet-1":{"type":2,"tank_id":"tank-1","position":[1273.67,627.82],"velocity":[351.94,-300.42],"damage":1},"bullet-2":{"type":2,"tank_id":"tank-2","position":[66.61,234.33],"velocity":[-408.22,-209.36],"damage":1}}},"time":0.1}
+< 2023/07/29 03:44:38.000755986  length=56 from=342 to=397
+{"shoot": 6.342840657891397}
+{"path": [123.03, 222.03]}
+> 2023/07/29 03:44:40.000751796  length=521 from=17867 to=18387
+{"message":{"deleted_objects":[],"updated_objects":{"tank-1":{"type":1,"position":[536.15,830.01],"velocity":[-141.42,-0.18],"hp":5,"powerups":[]},"tank-2":{"type":1,"position":[471.59,129.99],"velocity":[-141.42,0.78],"hp":5,"powerups":[]},"closing_boundary-1":{"type":6,"position":[[20.0,980.0],[20.0,20.0],[1780.0,20.0],[1780.0,980.0]],"velocity":[[10.0,0.0],[0.0,10.0],[-10.0,0.0],[0.0,-10.0]]},"bullet-1":{"type":2,"tank_id":"tank-1","position":[1361.65,552.71],"velocity":[351.94,-300.42],"damage":1}}},"time":0.1}
+< 2023/07/29 03:44:40.000752671  length=57 from=398 to=454
+{"shoot": 126.95236449218234}
+{"path": [123.03, 222.03]}
+> 2023/07/29 03:44:42.000708225  length=516 from=18388 to=18903
+{"message":{"deleted_objects":[],"updated_objects":{"tank-1":{"type":1,"position":[500.8,830.0],"velocity":[-141.42,-0.0],"hp":5,"powerups":[]},"tank-2":{"type":1,"position":[436.23,130.0],"velocity":[-141.42,0.0],"hp":5,"powerups":[]},"closing_boundary-1":{"type":6,"position":[[22.5,977.5],[22.5,22.5],[1777.5,22.5],[1777.5,977.5]],"velocity":[[10.0,0.0],[0.0,10.0],[-10.0,0.0],[0.0,-10.0]]},"bullet-1":{"type":2,"tank_id":"tank-1","position":[1449.64,477.61],"velocity":[351.94,-300.42],"damage":1}}},"time":0.1}
+< 2023/07/29 03:44:42.000709211  length=56 from=455 to=510
+{"shoot": 3.658453164554034}
+{"path": [123.03, 222.03]}
+> 2023/07/29 03:44:44.000691072  length=519 from=18904 to=19422
+{"message":{"deleted_objects":[],"updated_objects":{"tank-1":{"type":1,"position":[466.97,826.18],"velocity":[-102.37,-97.58],"hp":5,"powerups":[]},"tank-2":{"type":1,"position":[400.88,130.0],"velocity":[-141.42,0.0],"hp":5,"powerups":[]},"closing_boundary-1":{"type":6,"position":[[25.0,975.0],[25.0,25.0],[1775.0,25.0],[1775.0,975.0]],"velocity":[[10.0,0.0],[0.0,10.0],[-10.0,0.0],[0.0,-10.0]]},"bullet-1":{"type":2,"tank_id":"tank-1","position":[1537.62,402.5],"velocity":[351.94,-300.42],"damage":1}}},"time":0.1}
+< 2023/07/29 03:44:44.000691732  length=57 from=511 to=567
+{"shoot": 126.72147841012229}
+{"path": [123.03, 222.03]}
+> 2023/07/29 03:44:46.000670180  length=519 from=19423 to=19941
+{"message":{"deleted_objects":[],"updated_objects":{"tank-1":{"type":1,"position":[434.58,812.01],"velocity":[-129.56,-56.69],"hp":5,"powerups":[]},"tank-2":{"type":1,"position":[365.52,130.0],"velocity":[-141.42,0.0],"hp":5,"powerups":[]},"closing_boundary-1":{"type":6,"position":[[27.5,972.5],[27.5,27.5],[1772.5,27.5],[1772.5,972.5]],"velocity":[[10.0,0.0],[0.0,10.0],[-10.0,0.0],[0.0,-10.0]]},"bullet-1":{"type":2,"tank_id":"tank-1","position":[1625.61,327.4],"velocity":[351.94,-300.42],"damage":1}}},"time":0.1}
+< 2023/07/29 03:44:46.000671010  length=57 from=568 to=624
+{"shoot": 18.323747928350457}
+{"path": [123.03, 222.03]}
+> 2023/07/29 03:44:48.000629108  length=521 from=19942 to=20462
+{"message":{"deleted_objects":[],"updated_objects":{"tank-1":{"type":1,"position":[430.01,779.2],"velocity":[-0.22,-141.42],"hp":5,"powerups":[]},"tank-2":{"type":1,"position":[330.39,130.57],"velocity":[-102.39,97.55],"hp":5,"powerups":[]},"closing_boundary-1":{"type":6,"position":[[30.0,970.0],[30.0,30.0],[1770.0,30.0],[1770.0,970.0]],"velocity":[[10.0,0.0],[0.0,10.0],[-10.0,0.0],[0.0,-10.0]]},"bullet-1":{"type":2,"tank_id":"tank-1","position":[1713.59,252.29],"velocity":[351.94,-300.42],"damage":1}}},"time":0.1}
+< 2023/07/29 03:44:48.000629696  length=56 from=625 to=680
+{"shoot": 46.50387068194707}
+{"path": [123.03, 222.03]}
+> 2023/07/29 03:44:50.000529558  length=521 from=20463 to=20983
+{"message":{"deleted_objects":[],"updated_objects":{"tank-1":{"type":1,"position":[430.0,743.85],"velocity":[-0.0,-141.42],"hp":5,"powerups":[]},"tank-2":{"type":1,"position":[304.93,155.09],"velocity":[-100.06,99.94],"hp":5,"powerups":[]},"closing_boundary-1":{"type":6,"position":[[32.5,967.5],[32.5,32.5],[1767.5,32.5],[1767.5,967.5]],"velocity":[[10.0,0.0],[0.0,10.0],[-10.0,0.0],[0.0,-10.0]]},"bullet-1":{"type":2,"tank_id":"tank-1","position":[1719.54,177.18],"velocity":[-371.94,-300.42],"damage":1}}},"time":0.1}
+< 2023/07/29 03:44:50.000530296  length=56 from=681 to=736
+{"shoot": 120.3662548346081}
+{"path": [123.03, 222.03]}
+> 2023/07/29 03:44:52.000410879  length=523 from=20984 to=21506
+{"message":{"deleted_objects":[],"updated_objects":{"tank-1":{"type":1,"position":[414.48,714.7],"velocity":[-97.58,-102.36],"hp":5,"powerups":[]},"tank-2":{"type":1,"position":[272.41,168.97],"velocity":[-130.07,55.52],"hp":5,"powerups":[]},"closing_boundary-1":{"type":6,"position":[[35.0,965.0],[35.0,35.0],[1765.0,35.0],[1765.0,965.0]],"velocity":[[10.0,0.0],[0.0,10.0],[-10.0,0.0],[0.0,-10.0]]},"bullet-1":{"type":2,"tank_id":"tank-1","position":[1626.55,102.08],"velocity":[-371.94,-300.42],"damage":1}}},"time":0.1}
+< 2023/07/29 03:44:52.000411545  length=57 from=737 to=793
+{"shoot": 192.37523290316238}
+{"path": [123.03, 222.03]}
+> 2023/07/29 03:44:54.000290425  length=531 from=21507 to=22037
+{"message":{"deleted_objects":["bullet-1"],"updated_objects":{"tank-1":{"type":1,"position":[382.73,702.32],"velocity":[-101.62,-98.36],"hp":5,"powerups":[]},"tank-2":{"type":1,"position":[240.93,179.54],"velocity":[-102.16,97.8],"hp":5,"powerups":[]},"closing_boundary-1":{"type":6,"position":[[37.5,962.5],[37.5,37.5],[1762.5,37.5],[1762.5,962.5]],"velocity":[[10.0,0.0],[0.0,10.0],[-10.0,0.0],[0.0,-10.0]]},"bullet-1":{"type":2,"tank_id":"tank-1","position":[1558.36,47.0],"velocity":[-371.94,-300.42],"damage":1}}},"time":0.1}
+< 2023/07/29 03:44:54.000291348  length=57 from=794 to=850
+{"shoot": 198.16389590233845}
+{"path": [123.03, 222.03]}
+> 2023/07/29 03:44:56.000128172  length=414 from=22038 to=22451
+{"message":{"deleted_objects":[],"updated_objects":{"tank-1":{"type":1,"position":[357.53,677.53],"velocity":[-100.04,-99.96],"hp":5,"powerups":[]},"tank-2":{"type":1,"position":[208.24,192.19],"velocity":[-101.18,98.8],"hp":5,"powerups":[]},"closing_boundary-1":{"type":6,"position":[[40.0,960.0],[40.0,40.0],[1760.0,40.0],[1760.0,960.0]],"velocity":[[10.0,0.0],[0.0,10.0],[-10.0,0.0],[0.0,-10.0]]}}},"time":0.1}
+< 2023/07/29 03:44:56.000128825  length=57 from=851 to=907
+{"shoot": 51.364052587101554}
+{"path": [123.03, 222.03]}
+> 2023/07/29 03:44:57.000885814  length=486 from=22452 to=22937
+{"message":{"deleted_objects":[],"updated_objects":{"tank-1":{"type":1,"position":[325.32,664.9],"velocity":[-101.36,-98.62],"hp":5,"powerups":[]},"tank-2":{"type":1,"position":[176.19,207.12],"velocity":[-128.2,59.71],"hp":5,"powerups":[]},"closing_boundary-1":{"type":6,"position":[[42.5,957.5],[42.5,42.5],[1757.5,42.5],[1757.5,957.5]],"velocity":[[10.0,0.0],[0.0,10.0],[-10.0,0.0],[0.0,-10.0]]},"powerup-1":{"type":7,"position":[1304.0,573.0],"powerup_type":"HEALTH"}}},"time":0.1}
+< 2023/07/29 03:44:57.000886640  length=56 from=908 to=963
+{"shoot": 94.68792728415941}
+{"path": [123.03, 222.03]}
+> 2023/07/29 03:44:59.000638321  length=413 from=22938 to=23350
+{"message":{"deleted_objects":[],"updated_objects":{"tank-1":{"type":1,"position":[292.74,651.16],"velocity":[-130.3,-54.98],"hp":5,"powerups":[]},"tank-2":{"type":1,"position":[140.99,209.95],"velocity":[-141.42,0.66],"hp":5,"powerups":[]},"closing_boundary-1":{"type":6,"position":[[45.0,955.0],[45.0,45.0],[1755.0,45.0],[1755.0,955.0]],"velocity":[[10.0,0.0],[0.0,10.0],[-10.0,0.0],[0.0,-10.0]]}}},"time":0.1}
+< 2023/07/29 03:44:59.000638987  length=56 from=964 to=1019
+{"shoot": 53.58287626340763}
+{"path": [123.03, 222.03]}
+> 2023/07/29 03:45:01.000399122  length=414 from=23351 to=23764
+{"message":{"deleted_objects":[],"updated_objects":{"tank-1":{"type":1,"position":[290.01,617.17],"velocity":[-0.22,-141.42],"hp":5,"powerups":[]},"tank-2":{"type":1,"position":[111.31,229.15],"velocity":[-118.73,76.82],"hp":5,"powerups":[]},"closing_boundary-1":{"type":6,"position":[[47.5,952.5],[47.5,47.5],[1752.5,47.5],[1752.5,952.5]],"velocity":[[10.0,0.0],[0.0,10.0],[-10.0,0.0],[0.0,-10.0]]}}},"time":0.1}
+< 2023/07/29 03:45:01.000400613  length=56 from=1020 to=1075
+{"shoot": 4.211567176769445}
+{"path": [123.03, 222.03]}
+> 2023/07/29 03:45:03.000270239  length=409 from=23765 to=24173
+{"message":{"deleted_objects":[],"updated_objects":{"tank-1":{"type":1,"position":[269.86,589.88],"velocity":[-99.94,-100.06],"hp":5,"powerups":[]},"tank-2":{"type":1,"position":[111.29,229.17],"velocity":[0.0,0.0],"hp":5,"powerups":[]},"closing_boundary-1":{"type":6,"position":[[50.0,950.0],[50.0,50.0],[1750.0,50.0],[1750.0,950.0]],"velocity":[[10.0,0.0],[0.0,10.0],[-10.0,0.0],[0.0,-10.0]]}}},"time":0.1}
+< 2023/07/29 03:45:03.000271029  length=56 from=1076 to=1131
+{"shoot": 87.05178390257961}
+{"path": [123.03, 222.03]}
+> 2023/07/29 03:45:05.000012120  length=318 from=24174 to=24491
+{"message":{"deleted_objects":[],"updated_objects":{"tank-1":{"type":1,"position":[250.3,562.55],"velocity":[-3.35,-141.38],"hp":5,"powerups":[]},"closing_boundary-1":{"type":6,"position":[[52.5,947.5],[52.5,52.5],[1747.5,52.5],[1747.5,947.5]],"velocity":[[10.0,0.0],[0.0,10.0],[-10.0,0.0],[0.0,-10.0]]}}},"time":0.1}
+< 2023/07/29 03:45:05.000012718  length=56 from=1132 to=1187
+{"shoot": 52.67570056266361}
+{"path": [123.03, 222.03]}
+> 2023/07/29 03:45:06.000763151  length=318 from=24492 to=24809
+{"message":{"deleted_objects":[],"updated_objects":{"tank-1":{"type":1,"position":[233.6,533.77],"velocity":[-97.65,-102.3],"hp":5,"powerups":[]},"closing_boundary-1":{"type":6,"position":[[55.0,945.0],[55.0,55.0],[1745.0,55.0],[1745.0,945.0]],"velocity":[[10.0,0.0],[0.0,10.0],[-10.0,0.0],[0.0,-10.0]]}}},"time":0.1}
+< 2023/07/29 03:45:06.000763617  length=56 from=1188 to=1243
+{"shoot": 88.65280495922963}
+{"path": [123.03, 222.03]}
+> 2023/07/29 03:45:08.000524345  length=320 from=24810 to=25129
+{"message":{"deleted_objects":[],"updated_objects":{"tank-1":{"type":1,"position":[201.99,521.58],"velocity":[-101.75,-98.22],"hp":5,"powerups":[]},"closing_boundary-1":{"type":6,"position":[[57.5,942.5],[57.5,57.5],[1742.5,57.5],[1742.5,942.5]],"velocity":[[10.0,0.0],[0.0,10.0],[-10.0,0.0],[0.0,-10.0]]}}},"time":0.1}
+< 2023/07/29 03:45:08.000524826  length=56 from=1244 to=1299
+{"shoot": 52.75366105217259}
+{"path": [123.03, 222.03]}
+> 2023/07/29 03:45:10.000291322  length=319 from=25130 to=25448
+{"message":{"deleted_objects":[],"updated_objects":{"tank-1":{"type":1,"position":[190.03,491.11],"velocity":[-3.42,-141.38],"hp":5,"powerups":[]},"closing_boundary-1":{"type":6,"position":[[60.0,940.0],[60.0,60.0],[1740.0,60.0],[1740.0,940.0]],"velocity":[[10.0,0.0],[0.0,10.0],[-10.0,0.0],[0.0,-10.0]]}}},"time":0.1}
+< 2023/07/29 03:45:10.000292059  length=57 from=1300 to=1356
+{"shoot": 180.90225201145142}
+{"path": [123.03, 222.03]}
+> 2023/07/29 03:45:12.000780876  length=313 from=25449 to=25761
+{"message":{"deleted_objects":[],"updated_objects":{"tank-1":{"type":1,"position":[190.03,491.09],"velocity":[0.0,0.0],"hp":5,"powerups":[]},"closing_boundary-1":{"type":6,"position":[[62.5,937.5],[62.5,62.5],[1737.5,62.5],[1737.5,937.5]],"velocity":[[10.0,0.0],[0.0,10.0],[-10.0,0.0],[0.0,-10.0]]}}},"time":0.1}
+< 2023/07/29 03:45:12.000781322  length=56 from=1357 to=1412
+{"shoot": 2.525117312452762}
+{"path": [123.03, 222.03]}
+> 2023/07/29 03:45:15.000285910  length=224 from=25762 to=25985
+{"message":{"deleted_objects":[],"updated_objects":{"closing_boundary-1":{"type":6,"position":[[65.0,935.0],[65.0,65.0],[1735.0,65.0],[1735.0,935.0]],"velocity":[[10.0,0.0],[0.0,10.0],[-10.0,0.0],[0.0,-10.0]]}}},"time":0.1}
+< 2023/07/29 03:45:15.000286304  length=56 from=1413 to=1468
+{"shoot": 38.36195076713779}
+{"path": [123.03, 222.03]}
+> 2023/07/29 03:45:17.000774475  length=224 from=25986 to=26209
+{"message":{"deleted_objects":[],"updated_objects":{"closing_boundary-1":{"type":6,"position":[[67.5,932.5],[67.5,67.5],[1732.5,67.5],[1732.5,932.5]],"velocity":[[10.0,0.0],[0.0,10.0],[-10.0,0.0],[0.0,-10.0]]}}},"time":0.1}
+< 2023/07/29 03:45:17.000774982  length=56 from=1469 to=1524
+{"shoot": 60.40025215156466}
+{"path": [123.03, 222.03]}
+> 2023/07/29 03:45:20.000272513  length=224 from=26210 to=26433
+{"message":{"deleted_objects":[],"updated_objects":{"closing_boundary-1":{"type":6,"position":[[70.0,930.0],[70.0,70.0],[1730.0,70.0],[1730.0,930.0]],"velocity":[[10.0,0.0],[0.0,10.0],[-10.0,0.0],[0.0,-10.0]]}}},"time":0.1}
+< 2023/07/29 03:45:20.000272933  length=57 from=1525 to=1581
+{"shoot": 2.4220464023468864}
+{"path": [123.03, 222.03]}
+> 2023/07/29 03:45:22.000650055  length=224 from=26434 to=26657
+{"message":{"deleted_objects":[],"updated_objects":{"closing_boundary-1":{"type":6,"position":[[72.5,927.5],[72.5,72.5],[1727.5,72.5],[1727.5,927.5]],"velocity":[[10.0,0.0],[0.0,10.0],[-10.0,0.0],[0.0,-10.0]]}}},"time":0.1}
+< 2023/07/29 03:45:22.000650716  length=56 from=1582 to=1637
+{"shoot": 32.14544559047144}
+{"path": [123.03, 222.03]}
+> 2023/07/29 03:45:25.000004744  length=224 from=26658 to=26881
+{"message":{"deleted_objects":[],"updated_objects":{"closing_boundary-1":{"type":6,"position":[[75.0,925.0],[75.0,75.0],[1725.0,75.0],[1725.0,925.0]],"velocity":[[10.0,0.0],[0.0,10.0],[-10.0,0.0],[0.0,-10.0]]}}},"time":0.1}
+< 2023/07/29 03:45:25.000005165  length=56 from=1638 to=1693
+{"shoot": 5.498760505227614}
+{"path": [123.03, 222.03]}
+> 2023/07/29 03:45:27.000372732  length=224 from=26882 to=27105
+{"message":{"deleted_objects":[],"updated_objects":{"closing_boundary-1":{"type":6,"position":[[77.5,922.5],[77.5,77.5],[1722.5,77.5],[1722.5,922.5]],"velocity":[[10.0,0.0],[0.0,10.0],[-10.0,0.0],[0.0,-10.0]]}}},"time":0.1}
+< 2023/07/29 03:45:27.000373175  length=57 from=1694 to=1750
+{"shoot": 14.224652874980523}
+{"path": [123.03, 222.03]}
+> 2023/07/29 03:45:29.000782524  length=224 from=27106 to=27329
+{"message":{"deleted_objects":[],"updated_objects":{"closing_boundary-1":{"type":6,"position":[[80.0,920.0],[80.0,80.0],[1720.0,80.0],[1720.0,920.0]],"velocity":[[10.0,0.0],[0.0,10.0],[-10.0,0.0],[0.0,-10.0]]}}},"time":0.1}
+< 2023/07/29 03:45:29.000783008  length=57 from=1751 to=1807
+{"shoot": 46.486482979764304}
+{"path": [123.03, 222.03]}
+> 2023/07/29 03:45:32.000016340  length=224 from=27330 to=27553
+{"message":{"deleted_objects":[],"updated_objects":{"closing_boundary-1":{"type":6,"position":[[82.5,917.5],[82.5,82.5],[1717.5,82.5],[1717.5,917.5]],"velocity":[[10.0,0.0],[0.0,10.0],[-10.0,0.0],[0.0,-10.0]]}}},"time":0.1}
+< 2023/07/29 03:45:32.000016830  length=56 from=1808 to=1863
+{"shoot": 59.73384648249266}
+{"path": [123.03, 222.03]}
+> 2023/07/29 03:45:34.000294171  length=297 from=27554 to=27850
+{"message":{"deleted_objects":[],"updated_objects":{"closing_boundary-1":{"type":6,"position":[[85.0,915.0],[85.0,85.0],[1715.0,85.0],[1715.0,915.0]],"velocity":[[10.0,0.0],[0.0,10.0],[-10.0,0.0],[0.0,-10.0]]},"powerup-2":{"type":7,"position":[1592.0,742.0],"powerup_type":"HEALTH"}}},"time":0.1}
+< 2023/07/29 03:45:34.000294917  length=56 from=1864 to=1919
+{"shoot": 48.69671478440313}
+{"path": [123.03, 222.03]}
+> 2023/07/29 03:45:36.000571435  length=224 from=27851 to=28074
+{"message":{"deleted_objects":[],"updated_objects":{"closing_boundary-1":{"type":6,"position":[[87.5,912.5],[87.5,87.5],[1712.5,87.5],[1712.5,912.5]],"velocity":[[10.0,0.0],[0.0,10.0],[-10.0,0.0],[0.0,-10.0]]}}},"time":0.1}
+< 2023/07/29 03:45:36.000571862  length=57 from=1920 to=1976
+{"shoot": 12.366361916885742}
+{"path": [123.03, 222.03]}
+> 2023/07/29 03:45:38.000850385  length=224 from=28075 to=28298
+{"message":{"deleted_objects":[],"updated_objects":{"closing_boundary-1":{"type":6,"position":[[90.0,910.0],[90.0,90.0],[1710.0,90.0],[1710.0,910.0]],"velocity":[[10.0,0.0],[0.0,10.0],[-10.0,0.0],[0.0,-10.0]]}}},"time":0.1}
+< 2023/07/29 03:45:38.000850896  length=56 from=1977 to=2032
+{"shoot": 86.07330563770432}
+{"path": [123.03, 222.03]}
+> 2023/07/29 03:45:41.000014784  length=224 from=28299 to=28522
+{"message":{"deleted_objects":[],"updated_objects":{"closing_boundary-1":{"type":6,"position":[[92.5,907.5],[92.5,92.5],[1707.5,92.5],[1707.5,907.5]],"velocity":[[10.0,0.0],[0.0,10.0],[-10.0,0.0],[0.0,-10.0]]}}},"time":0.1}
+< 2023/07/29 03:45:41.000015169  length=57 from=2033 to=2089
+{"shoot": 127.87586987103367}
+{"path": [123.03, 222.03]}
+> 2023/07/29 03:45:43.000147738  length=224 from=28523 to=28746
+{"message":{"deleted_objects":[],"updated_objects":{"closing_boundary-1":{"type":6,"position":[[95.0,905.0],[95.0,95.0],[1705.0,95.0],[1705.0,905.0]],"velocity":[[10.0,0.0],[0.0,10.0],[-10.0,0.0],[0.0,-10.0]]}}},"time":0.1}
+< 2023/07/29 03:45:43.000148118  length=57 from=2090 to=2146
+{"shoot": 232.28508713524172}
+{"path": [123.03, 222.03]}
+> 2023/07/29 03:45:45.000282532  length=224 from=28747 to=28970
+{"message":{"deleted_objects":[],"updated_objects":{"closing_boundary-1":{"type":6,"position":[[97.5,902.5],[97.5,97.5],[1702.5,97.5],[1702.5,902.5]],"velocity":[[10.0,0.0],[0.0,10.0],[-10.0,0.0],[0.0,-10.0]]}}},"time":0.1}
+< 2023/07/29 03:45:45.000283120  length=56 from=2147 to=2202
+{"shoot": 4.781989791000909}
+{"path": [123.03, 222.03]}
+> 2023/07/29 03:45:47.000657367  length=6 from=28971 to=28976
+"END"

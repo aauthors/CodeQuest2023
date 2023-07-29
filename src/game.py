@@ -93,6 +93,6 @@ class Game:
             "shoot": random.uniform(0, random.randint(1, 360)), 
         })
 
-        //comms.post_message({
-            //"path": [123.03, 222.03],
-        //})
+        #comms.post_message({
+            #"path": [123.03, 222.03],
+        #})
