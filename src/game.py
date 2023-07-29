@@ -89,9 +89,10 @@ class Game:
         """
 
         # Write your code here... For demonstration, this bot just shoots randomly every turn.
-
         comms.post_message({
             "shoot": random.uniform(0, random.randint(1, 360)), 
         })
 
-
+        //comms.post_message({
+            //"path": [123.03, 222.03],
+        //})
