@@ -21,6 +21,8 @@ class Game:
         tank_id_message: dict = comms.read_message()
         self.tank_id = tank_id_message["message"]["your-tank-id"]
 
+        self.enemy_tank_id = tank_id_message["message"]["enemy-tank-id"]
+
         self.current_turn_message = None
 
         self.tick = 0 # tick counter
