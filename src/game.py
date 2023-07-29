@@ -92,7 +92,6 @@ class Game:
 
         comms.post_message({
             "shoot": random.uniform(0, random.randint(1, 360)), 
-            "path": random.uniform(0, random.randint(1.360)),
         })
 
 
