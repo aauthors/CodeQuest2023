@@ -96,13 +96,17 @@ class Game:
         self.tick += 1
         to_post = {}
 
-        to_post.update({"shoot": random.uniform(0, random.randint(1, 360))})
+        # to_post.update({"shoot": random.uniform(0, random.randint(1, 360))})
 
         # Write your code here... For demonstration, this bot just shoots randomly every turn.
         # comms.post_message({
         #     "shoot": random.uniform(0, random.randint(1, 360)), 
         # })
 
+        # STRATS
+        # TODO: avoid approaching bullets
+
+        # TODO: avoid boundary
         tank_posx = self.objects[f"{self.tank_id}"]["position"][0]
         tank_posy = self.objects[f"{self.tank_id}"]["position"][1] 
         boundary = self.objects["closing_boundary-1"]
@@ -111,14 +115,16 @@ class Game:
         bound_rangey_bottom = boundary["position"][1][1]+boundary["velocity"][1][1] + 50
         bound_rangey_top = boundary["position"][3][1]+boundary["velocity"][3][1] - 50
 
-        if self.tick % 20 == 0 and (tank_posx < bound_rangex_left or tank_posx > bound_rangex_right or tank_posy < bound_rangey_bottom or tank_posy > bound_rangey_top):
+        if (tank_posx < bound_rangex_left or tank_posx > bound_rangex_right or tank_posy < bound_rangey_bottom or tank_posy > bound_rangey_top):
             new_pathx = round(random.uniform(bound_rangex_left, bound_rangex_right), 1)
             new_pathy = round(random.uniform(bound_rangey_bottom, bound_rangey_top), 1)
             print(f"new position: [{new_pathx},{new_pathy}]", file=sys.stderr)
             to_post.update({"path": [new_pathx, new_pathy]})
-            # comms.post_message({
-            #     "path": [new_pathx, new_pathy],
-            # })
+
+        # TODO: move towards powerups
+        
+        # TODO: go to enemy and shoot
+
 
         print(f"Posted Message ({self.tick}): [{to_post}]", file=sys.stderr)
         comms.post_message(to_post)
