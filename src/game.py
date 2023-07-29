@@ -24,7 +24,11 @@ class Game:
         # We will store all game objects here
         self.objects = {}
 
-        next_init_message = comms.read_message()
+        # updated and deleted objects
+        self.deleted_objects = {}
+        self.updated_objects = {}
+
+        next_init_message = comms.read_message() # we will get our updated information
         while next_init_message != comms.END_INIT_SIGNAL:
             # At this stage, there won't be any "events" in the message. So we only care about the object_info.
             object_info: dict = next_init_message["message"]["updated_objects"]
@@ -44,6 +48,9 @@ class Game:
         for game_object in self.objects.values():
             if game_object["type"] == ObjectTypes.BOUNDARY.value:
                 boundaries.append(game_object)
+
+        # TESTING PRINT
+        print(self.objects)
 
         # The biggest X and the biggest Y among all Xs and Ys of boundaries must be the top right corner of the map.
 
