@@ -151,6 +151,32 @@ class Game:
 
 
         # TODO: move towards powerups
+        if not path_updated and (my_tank["hp"] <= 3):
+            powerup_positions = []
+            for key in self.objects.keys():
+                if self.objects[key]["type"] == 7: 
+                    powerup_positions.append(self.objects[key]["position"])
+
+            min_pos_x, min_pos_y = enemy_tank_pos
+            min_dist = float('inf')
+            for pposx, pposy in powerup_positions:
+                if (abs(pposx - my_tank_posx)**2) + (abs(pposy - my_tank_posy) ** 2) < min_dist:
+                    min_dist = (abs(pposx - my_tank_posx)**2) + (abs(pposy - my_tank_posy) ** 2)
+                    min_pos_x, min_pos_y = pposx, pposy
+            to_post.update({"path": [min_pos_x, min_pos_y]})
+            path_updated = True
+
+            distance = abs(my_tank_posx - enemy_tank_pos[0]) + abs(my_tank_posy) - abs(enemy_tank_pos[1])
+            angle = None
+            if distance < 500:
+                x1 = my_tank_posx
+                y1 = my_tank_posy
+                x2 = enemy_tank_pos[0]
+                y2 = enemy_tank_pos[1]
+                
+                angle = math.atan2(y2 - y1, x2 - x1) * 180 / math.pi
+                
+                to_post.update({"shoot": angle})
         
         # TODO: go to enemy and shoot
         if not path_updated and self.last_path_requested is None or self.last_path_requested != enemy_tank_pos:
