@@ -4,6 +4,7 @@ import comms
 from object_types import ObjectTypes
 
 import sys
+import math
 
 
 class Game:
@@ -18,12 +19,13 @@ class Game:
         is called and will be available to be used in `respond_to_turn` if needed.
     """
     def __init__(self):
+
         tank_id_message: dict = comms.read_message()
+        
         self.tank_id = tank_id_message["message"]["your-tank-id"]
-
         self.enemy_tank_id = tank_id_message["message"]["enemy-tank-id"]
-
         self.current_turn_message = None
+        self.last_path_requested = None
 
         self.tick = 0 # tick counter
 
@@ -119,11 +121,36 @@ class Game:
             new_pathx = round(random.uniform(bound_rangex_left, bound_rangex_right), 1)
             new_pathy = round(random.uniform(bound_rangey_bottom, bound_rangey_top), 1)
             print(f"new position: [{new_pathx},{new_pathy}]", file=sys.stderr)
+            self.last_path_requested = [new_pathx, new_pathy]
             to_post.update({"path": [new_pathx, new_pathy]})
 
         # TODO: move towards powerups
         
         # TODO: go to enemy and shoot
+        enemy_tank = self.objects[self.enemy_tank_id] #Enemy tank
+        enemy_tank_pos = enemy_tank["position"]
+        my_tank = self.objects[self.tank_id]
+        my_tank_pos = my_tank["position"]
+
+        if self.last_path_requested is None or self.last_path_requested != enemy_tank_pos:
+            to_post.update({"path": enemy_tank_pos})
+            self.last_path_requested = enemy_tank_pos
+        
+        distance = abs(my_tank_pos[0] - enemy_tank_pos[0]) + abs(my_tank_pos[1]) - abs(enemy_tank_pos[1])
+            
+        angle = None
+        if distance < 500:
+            x1 = my_tank_pos[0]
+            y1 = my_tank_pos[1]
+            x2 = enemy_tank_pos[0]
+            y2 = enemy_tank_pos[1]
+            
+            angle = math.atan2(y2 - y1, x2 - x1) * 180 / math.pi
+            
+            to_post.update({"shoot": angle})
+
+
+
 
 
         print(f"Posted Message ({self.tick}): [{to_post}]", file=sys.stderr)
