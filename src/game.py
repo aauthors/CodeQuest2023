@@ -101,12 +101,13 @@ class Game:
         # to_post.update({"shoot": random.uniform(0, random.randint(1, 360))})
 
         # Write your code here... For demonstration, this bot just shoots randomly every turn.
-        # comms.post_message({
-        #     "shoot": random.uniform(0, random.randint(1, 360)), 
-        # })
+        to_post.update({"shoot": random.uniform(0, random.randint(1, 360))}) 
 
         # STRATS
         # TODO: avoid approaching bullets
+        for key in self.objects.keys():
+            if key[:6] == "bullet":
+                pass
 
         # TODO: avoid boundary
         tank_posx = self.objects[f"{self.tank_id}"]["position"][0]
