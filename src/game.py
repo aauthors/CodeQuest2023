@@ -106,24 +106,20 @@ class Game:
         """
         self.tick += 1
         to_post = {}
+        path_updated = False
 
         # to_post.update({"shoot": random.uniform(0, random.randint(1, 360))})
 
         # Write your code here... For demonstration, this bot just shoots randomly every turn.
         # to_post.update({"shoot": random.uniform(0, random.randint(1, 360))}) 
 
-       #print(f"new position: [{self.objects}]", file=sys.stderr)
+        #print(f"new position: [{self.objects}]", file=sys.stderr)
         my_tank = self.objects[self.tank_id]
         my_tank_posx, my_tank_posy = my_tank["position"] 
         enemy_tank = self.objects[self.enemy_tank_id] #Enemy tank
         enemy_tank_pos = enemy_tank["position"]
 
         # STRATS
-        # TODO: avoid approaching bullets
-        for key in self.objects.keys():
-            if key[:6] == "bullet":
-                pass
-
         # TODO: avoid boundary
         boundary = self.objects["closing_boundary-1"]
         bound_rangex_left = boundary["position"][0][0]+boundary["velocity"][0][0] + 50
@@ -137,13 +133,30 @@ class Game:
             print(f"new position: [{new_pathx},{new_pathy}]", file=sys.stderr)
             self.last_path_requested = [new_pathx, new_pathy]
             to_post.update({"path": [new_pathx, new_pathy]})
+            path_updated = True
+        
+        # TODO: avoid approaching bullets
+        my_tank_xrange = [my_tank_posx-10, my_tank_posx+10]
+        my_tank_yrange = [my_tank_posy-10, my_tank_posy+10]
+        for key in self.objects.keys():
+            if self.objects[key]["type"] == 2: # check it is of bullet type
+                bullet = self.objects[key]
+                bullet_posx = bullet["position"][0] + 2*bullet["velocity"][0]
+                bullet_posy = bullet["position"][1] + 2*bullet["velocity"][1]
+                if not path_updated and (bullet_posx > my_tank_xrange[0] and bullet_posx < my_tank_xrange[1]) and (bullet_posy > my_tank_yrange[0] and bullet_posy < my_tank_yrange[1]):
+                    bullet_angle = math.atan2(2*bullet["velocity"][0], 2*bullet["velocity"][1])
+                    y_distance = 200*math.tan(bullet_angle)
+                    to_post.update({"path": [my_tank_posx+200, my_tank_posy+y_distance]})
+                    path_updated = True
+
 
         # TODO: move towards powerups
         
         # TODO: go to enemy and shoot
-        if self.last_path_requested is None or self.last_path_requested != enemy_tank_pos:
+        if not path_updated and self.last_path_requested is None or self.last_path_requested != enemy_tank_pos:
             to_post.update({"path": enemy_tank_pos})
             self.last_path_requested = enemy_tank_pos
+            path_updated = True
         
         distance = abs(my_tank_posx - enemy_tank_pos[0]) + abs(my_tank_posy) - abs(enemy_tank_pos[1])
             
