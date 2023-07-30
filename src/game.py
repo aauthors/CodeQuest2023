@@ -32,6 +32,8 @@ class Game:
         # We will store all game objects here
         self.objects = {}
 
+        self.walls = []
+
         next_init_message = comms.read_message()
         while next_init_message != comms.END_INIT_SIGNAL:
             # At this stage, there won't be any "events" in the message. So we only care about the object_info.
@@ -52,6 +54,13 @@ class Game:
         for game_object in self.objects.values():
             if game_object["type"] == ObjectTypes.BOUNDARY.value:
                 boundaries.append(game_object)
+            #Append walls & desctructible walls to our wall array
+            elif game_object["type"] == ObjectTypes.WALL.value:
+                self.walls.append(game_object)
+            elif game_object["type"] == ObjectTypes.DESTRUCTIBLE_WALL.value:
+                self.walls.append(game_object)
+
+        print(f"MY_WALLS: [{self.walls}]", file=sys.stderr)
 
         # The biggest X and the biggest Y among all Xs and Ys of boundaries must be the top right corner of the map.
 
@@ -103,6 +112,7 @@ class Game:
         # Write your code here... For demonstration, this bot just shoots randomly every turn.
         # to_post.update({"shoot": random.uniform(0, random.randint(1, 360))}) 
 
+       #print(f"new position: [{self.objects}]", file=sys.stderr)
         my_tank = self.objects[self.tank_id]
         my_tank_posx, my_tank_posy = my_tank["position"] 
         enemy_tank = self.objects[self.enemy_tank_id] #Enemy tank
