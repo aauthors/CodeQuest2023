@@ -180,9 +180,31 @@ class Game:
         
         # TODO: go to enemy and shoot
         if not path_updated and self.last_path_requested is None or self.last_path_requested != enemy_tank_pos:
-            to_post.update({"path": enemy_tank_pos})
-            self.last_path_requested = enemy_tank_pos
-            path_updated = True
+            
+            noWallX = True
+            noWallY = True
+
+            for wall in self.walls:
+                
+                w_x, w_y = wall["position"]
+                en_x, en_y = enemy_tank_pos
+
+                if (en_x > w_x - 9) or (en_x < w_x + 9):
+                    noWallX = False
+                if (en_y > w_y - 9) or (en_y < w_y + 9):
+                    noWallY = False
+            
+            if noWallX:
+                to_post.update({"path": [en_x, my_tank_posy]})
+                self.last_path_requested = [en_x, my_tank_posy]
+                path_updated = True
+            elif noWallY:
+                to_post.update({"path": [my_tank_posx, en_y]})
+                self.last_path_requested = [my_tank_posx, en_y]
+                path_updated = True
+
+            
+ 
         
         distance = abs(my_tank_posx - enemy_tank_pos[0]) + abs(my_tank_posy) - abs(enemy_tank_pos[1])
             
