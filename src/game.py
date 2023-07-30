@@ -101,7 +101,12 @@ class Game:
         # to_post.update({"shoot": random.uniform(0, random.randint(1, 360))})
 
         # Write your code here... For demonstration, this bot just shoots randomly every turn.
-        to_post.update({"shoot": random.uniform(0, random.randint(1, 360))}) 
+        # to_post.update({"shoot": random.uniform(0, random.randint(1, 360))}) 
+
+        my_tank = self.objects[self.tank_id]
+        my_tank_posx, my_tank_posy = my_tank["position"] 
+        enemy_tank = self.objects[self.enemy_tank_id] #Enemy tank
+        enemy_tank_pos = enemy_tank["position"]
 
         # STRATS
         # TODO: avoid approaching bullets
@@ -110,15 +115,13 @@ class Game:
                 pass
 
         # TODO: avoid boundary
-        tank_posx = self.objects[f"{self.tank_id}"]["position"][0]
-        tank_posy = self.objects[f"{self.tank_id}"]["position"][1] 
         boundary = self.objects["closing_boundary-1"]
         bound_rangex_left = boundary["position"][0][0]+boundary["velocity"][0][0] + 50
         bound_rangex_right = boundary["position"][2][0]+boundary["velocity"][2][0] - 50 
         bound_rangey_bottom = boundary["position"][1][1]+boundary["velocity"][1][1] + 50
         bound_rangey_top = boundary["position"][3][1]+boundary["velocity"][3][1] - 50
 
-        if (tank_posx < bound_rangex_left or tank_posx > bound_rangex_right or tank_posy < bound_rangey_bottom or tank_posy > bound_rangey_top):
+        if (my_tank_posx < bound_rangex_left or my_tank_posx > bound_rangex_right or my_tank_posy < bound_rangey_bottom or my_tank_posy > bound_rangey_top):
             new_pathx = round(random.uniform(bound_rangex_left, bound_rangex_right), 1)
             new_pathy = round(random.uniform(bound_rangey_bottom, bound_rangey_top), 1)
             print(f"new position: [{new_pathx},{new_pathy}]", file=sys.stderr)
@@ -128,21 +131,16 @@ class Game:
         # TODO: move towards powerups
         
         # TODO: go to enemy and shoot
-        enemy_tank = self.objects[self.enemy_tank_id] #Enemy tank
-        enemy_tank_pos = enemy_tank["position"]
-        my_tank = self.objects[self.tank_id]
-        my_tank_pos = my_tank["position"]
-
         if self.last_path_requested is None or self.last_path_requested != enemy_tank_pos:
             to_post.update({"path": enemy_tank_pos})
             self.last_path_requested = enemy_tank_pos
         
-        distance = abs(my_tank_pos[0] - enemy_tank_pos[0]) + abs(my_tank_pos[1]) - abs(enemy_tank_pos[1])
+        distance = abs(my_tank_posx - enemy_tank_pos[0]) + abs(my_tank_posy) - abs(enemy_tank_pos[1])
             
         angle = None
         if distance < 500:
-            x1 = my_tank_pos[0]
-            y1 = my_tank_pos[1]
+            x1 = my_tank_posx
+            y1 = my_tank_posy
             x2 = enemy_tank_pos[0]
             y2 = enemy_tank_pos[1]
             
